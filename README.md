@@ -1,6 +1,6 @@
 # Ejercicios 01-04 JAVA
 
-![]([http://ruta-imagen.jpg](https://cdn.icon-icons.com/icons2/2699/PNG/512/java_logo_icon_168609.png)
+![]([http://ruta-imagen.jpg](https://cdn.icon-icons.com/icons2/2699/PNG/512/java_logo_icon_168609.png))
 
 ## Ejercicios básicos
 
