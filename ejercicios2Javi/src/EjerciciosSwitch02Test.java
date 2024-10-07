@@ -179,14 +179,14 @@ class EjerciciosSwitchTest {
         // Este test dependerá de cómo implementes el cálculo
         assertTrue(EjerciciosSwitch.calcularProbabilidadInfidelidad() >= 0 && EjerciciosSwitch.calcularProbabilidadInfidelidad() <= 100);
     }
-
+*/
     // Ejercicio 17
     @ParameterizedTest
     @ValueSource(ints = {123, 456, 789, 1000})
     void testObtenerUltimaCifra(int numero) {
         assertEquals(numero % 10, EjerciciosSwitch.obtenerUltimaCifra(numero));
     }
-
+/*
     // Ejercicio 18
     @ParameterizedTest
     @CsvSource({

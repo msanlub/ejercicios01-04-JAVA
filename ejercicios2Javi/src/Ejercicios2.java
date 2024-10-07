@@ -129,10 +129,8 @@ class EjerciciosSwitch {
         }
         return piramide.toString();
     }
-    public static void main(String[] args) {
-        //System.out.println(dibujarPiramide('a', "arriba", 3));
-        System.out.println(dibujarPiramide('a', "izquierda", 3));
-        //dibujarPiramide('s', "derecha", 3);
-    }
 
+    public static int obtenerUltimaCifra(int numero) {
+        return numero%10;
+    }
 }
