@@ -8,7 +8,7 @@ teclado.*/
 
 public class Saludo {
 
-    String saludo ( int hora ){
+    public String saludo(int hora){
         if (hora >= 6 && hora <= 12){
             return "Buenos días";
         }else if (hora >= 13 && hora <= 20){
