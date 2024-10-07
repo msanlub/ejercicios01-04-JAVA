@@ -4,9 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import ejercicio2.Saludo;
 import ejercicio4.CalculadorSalario;
-import ejercicio16.TestFidelidad;
 import ejercicio18.PrimeraCifra;
-
 
 
 public class ejercicio02Test {
