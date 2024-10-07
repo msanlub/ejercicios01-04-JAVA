@@ -2,9 +2,9 @@ package ejercicio8;
 
 public class SalarioSemanal {
 
-    final int precioHora = 12;
+    static final int precioHora = 12;
 
-    public double calcularSalario(double horas) {
+    public static double calcularSalario(double horas) {
         return horas * precioHora;
     }
 }
