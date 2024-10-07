@@ -82,17 +82,57 @@ class EjerciciosSwitch {
                     for (int j = filas; j > i; j--) {
                         piramide.append(" ");
                     }
-                    for (int j = i; j <= (2 * i - 1); j++) {
+                    for (int j = 1; j <= (2 * i - 1); j++) {
                         piramide.append(caracter);
+                    }
+                    for (int j = filas; j > i; j--) {
+                        piramide.append(" ");
                     }
                     piramide.append("\n");
                 }
+            case "derecha":
+                for (int i = 1; i <= filas; i++) {
+                    for (int j = 1; j <= i; j++) {
+                        piramide.append(caracter+" ");
+                    }
+                    piramide.append("\n");
+                }
+
+                // Parte inferior de la figura
+                for (int i = filas - 1; i >= 1; i--) {
+                    for (int j = 1; j <= i; j++) {
+                        piramide.append(caracter+ " ");
+                    }
+                    piramide.append("\n");
+                }
+                return piramide.toString();
+            case "izquierda":
+                for (int i = 1; i <= filas; i++) {
+                    for (int j = 1; j <= filas - i; j++) {
+                        piramide.append("   ");
+                    }
+                    for (int k = 1; k <= i; k++) {
+                        piramide.append(caracter+"  ");
+                    }
+                    piramide.append("\n");
+                }
+                for (int i = filas - 1; i >= 1; i--) {
+                    for (int j = 1; j <= filas - i; j++) {
+                        piramide.append("   ");
+                    }
+                    for (int k = 1; k <= i; k++) {
+                        piramide.append(caracter+"  ");
+                    }
+                    piramide.append("\n");
+            }
                 return piramide.toString();
         }
         return piramide.toString();
     }
     public static void main(String[] args) {
-        System.out.println(dibujarPiramide('a', "abajo", 3));
+        //System.out.println(dibujarPiramide('a', "arriba", 3));
+        System.out.println(dibujarPiramide('a', "izquierda", 3));
+        //dibujarPiramide('s', "derecha", 3);
     }
 
 }
